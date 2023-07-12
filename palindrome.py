@@ -42,8 +42,6 @@ class Solution:
           palindrome=False
         y=y[1:len(y)-1]
       return(palindrome)
-            
-            #TODO: Write code below to return a boolean value with the solution to the prompt.
 
 def main():
     tc1 = Solution()
