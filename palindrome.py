@@ -1,7 +1,7 @@
 class Solution:
     # Write code below to complete prompt
      def isPalindrome(self,x):
-      y=self.x.casefold().replace(' ','')
+      y=x.casefold().replace(' ','')
       ylen=len(y)
       palindrome=True
       if len(y)<=6:
